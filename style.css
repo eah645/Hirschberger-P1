@@ -1,0 +1,94 @@
+body {
+    background-color: #09181F;
+}
+
+/*Header stuff (Includes the hello, intro text, image, and buttons*/
+header {
+    margin: 50px;
+}
+
+/*Ok all of this I'm using px until I can figure out how to make text size responsive because I just wanna lay out the pages rn*/
+h1 {
+    font-size: 120px;
+    color: #E1E6E5;
+    font-family: 'Courier New';
+}
+
+h5 {
+    font-size: 40px;
+    color: #E1E6E5;
+    font-family: 'Lato';
+    /*Idk if this is applying*/
+    font-style: bold;
+}
+
+/*...I can't center align these fuck- fix it later*/
+.header-links {
+    background-color: #556972;
+    color: #E1E6E5;
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.header-links:hover {
+    background-color: #750808;
+    color: #E1E6E5;
+}
+
+/*Navbar*/
+/*I have no fucking idea where the hover effect is coming from*/
+.navbar .navbar-nav .nav-link {
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Courier New';
+    color: #E1E6E5;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .navbar {
+    background-color: #556972;
+  }
+
+  /*This should apply to all except the first- I'll just make it so it doesn't have class active ok got it*/
+  .navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #E1E6E5;
+  background-color: #09181f;
+}
+
+/*Homepage*/
+.intro-paragraph {
+    margin: 30px;
+    color: #E1E6E5;
+    padding: 20px;
+    font-family: 'Lato';
+    font-size: 20px;
+}
+
+h2 {
+    color: #E1E6E5;
+}
+
+
+
+
+
+
+/*Footer*/
+footer {
+    background-color: #556972;
+    color: #E1E6E5;
+    font-size: 20px;
+    margin-top: 10px;
+}
